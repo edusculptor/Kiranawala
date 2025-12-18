@@ -1,0 +1,6 @@
+@import "tailwindcss";
+.heroimage{
+    background-image: url('./assets/Add\ a\ little\ bit\ of\ body\ text\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+}
