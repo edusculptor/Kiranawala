@@ -8,7 +8,7 @@ import { RiAccountCircleFill } from "react-icons/ri";
 function Navbars() {
   return (
     <>
-    <div className='w-screen h-[10vh] bg-[#111a14] grid grid-cols-10 grid-rows-1'>
+    <div className='w-screen h-[10vh] bg-[#111a14] grid grid-cols-10 grid-rows-1  '>
       {/* logo */}
       <div className="logo h-full  col-span-2 flex items-center justify-center">
         <img src={logo} alt="Logo" className='' />

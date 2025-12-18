@@ -1,10 +1,13 @@
 import React from "react";
 import { IoFlashSharp } from "react-icons/io5";
+import Navbars from "./Navbars";
+import { FaArrowRight } from "react-icons/fa";
 
 function Hero() {
   return (
     <>
-      <div className="w-screen h-[90vh] heroimage border-2 grid grid-cols-10 grid-rows-10 ">
+    <Navbars/>
+      <div className="w-screen h-[90vh] heroimage  grid grid-cols-10 grid-rows-10 ">
         <div className="col-span-6 row-span-11  flex justify-center items-center">
           <div className="w-[80%] h-[80%]  grid grid-rows-10 grid-cols-1">
             {/* lightning message */}
@@ -18,12 +21,18 @@ function Hero() {
             </div>
             {/* main heading */}
             <div className="row-span-7">
-              <h1 className="text-6xl font-bold text-white">
+              <h1 className="text-8xl font-bold text-white">
                 Organic </h1>
-             <h1 className="text-6xl font-bold text-white">   Goodness, </h1>
+             <h1 className="text-8xl font-bold text-white">   Goodness, </h1>
                 
-               <h1 className="text-6xl font-bold text-[#31e87a]">  Delivered Daily.</h1>
+               <h1 className="text-8xl font-bold text-[#31e87a]">  Delivered Daily.</h1>
+               <p className="text-[#f3f2f2] text-2xl">Shop fresh produce, dairy, and daily essentials from <br />
+local farms directly to your doorstep.</p>
              
+            </div>
+            <div className="buttons row-span-2 flex gap-15 items-center">
+              <button className="bg-[#31e87a] flex items-center p-3 rounded-3xl gap-3">Shop Now <FaArrowRight /></button>
+              <button className=" bg-amber-50 flex items-center p-3 rounded-3xl gap-3 pr-7 pl-7">View Deals</button>
             </div>
           </div>
         </div>
