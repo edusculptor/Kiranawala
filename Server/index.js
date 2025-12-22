@@ -1,12 +1,14 @@
 import e from "express";
 import mongoose from "mongoose";
 import dotenv from 'dotenv'
-import User from "./Model/users.js";
+import User from "./Model/users.js"
+import cors from "cors"
 dotenv.config()
 
 
 const app =e();
 app.use(e.json());
+app.use(cors());
 
 const PORT =3000;
  const Database_conection= async()=>
@@ -29,11 +31,17 @@ Database_conection();
         email,
         password
     });
+    try{
    await newUser.save()
-res.json({
-    status:"ok",
-    message:newUser
-})
+    }
+    catch(err)
+    {
+     res.json({
+        status:err
+     })
+    }
+   
+
 
  });
 
