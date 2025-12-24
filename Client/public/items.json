@@ -1,0 +1,97 @@
+[
+    {
+        "id":1,
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/assets/Catogouries/img1.png",
+        "price":"₹ 650",
+        "prv_price":"₹800",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#31e87a",
+        "off":"Best Seller"
+        
+    },
+     {
+        "id":1,
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/assets/Catogouries/img1.png",
+        "price":"₹ 650",
+        "prv_price":"₹800",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#31e87a",
+        "off":"Best Seller"
+        
+    },
+     {
+        "id":1,
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/assets/Catogouries/img1.png",
+        "price":"₹ 650",
+        "prv_price":"₹800",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#31e87a",
+        "off":"Best Seller"
+        
+    }
+    ,
+     {
+        "id":1,
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/assets/Catogouries/img1.png",
+        "price":"₹ 650",
+        "prv_price":"₹800",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#31e87a",
+        "off":"Best Seller"
+        
+    },
+    {
+        "id":1,
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/assets/Catogouries/img1.png",
+        "price":"₹ 650",
+        "prv_price":"₹800",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#31e87a",
+        "off":"Best Seller"
+        
+    },
+    {
+        "id":1,
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/assets/Catogouries/img1.png",
+        "price":"₹ 650",
+        "prv_price":"₹800",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#31e87a",
+        "off":"Best Seller"
+        
+    }
+    ,{
+        "id":1,
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/assets/Catogouries/img1.png",
+        "price":"₹ 650",
+        "prv_price":"₹800",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#31e87a",
+        "off":"Best Seller"
+        
+    }
+
+    
+    
+]
