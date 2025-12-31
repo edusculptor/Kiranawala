@@ -13,7 +13,7 @@
         
     },
      {
-        "id":1,
+        "id":2,
         "Catg":"Fruites",
         "Name":"Organic Red Apples",
         "url":"./../src/assets/Catogouries/img1.png",
@@ -26,7 +26,7 @@
         
     },
      {
-        "id":1,
+        "id":3,
         "Catg":"Fruites",
         "Name":"Organic Red Apples",
         "url":"./../src/assets/Catogouries/img1.png",
@@ -40,7 +40,7 @@
     }
     ,
      {
-        "id":1,
+        "id":4,
         "Catg":"Fruites",
         "Name":"Organic Red Apples",
         "url":"./../src/assets/Catogouries/img1.png",

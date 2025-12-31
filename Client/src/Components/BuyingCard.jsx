@@ -1,9 +1,26 @@
-import React from 'react'
+import React, { useContext } from 'react';
 // import carddata from './../../public/items.json'
 import { CiHeart } from "react-icons/ci";
 import { FaPlus } from "react-icons/fa6";
+import { CartContext } from "./CardContext";
+import { useNavigate } from "react-router-dom";
 
 function BuyingCard(props) {
+  const { addToCart } = useContext(CartContext);
+  const navigate = useNavigate();
+
+  const handleAddToCart = () => {
+    const product = {
+      id: props.id,
+      name: props.Name,
+      price: props.price,
+      image: props.url,
+      quantity: props.quantity
+    };
+
+    addToCart(product);     // ✅ add to cart
+    navigate("/cart");      // ✅ redirect to cart page
+  };
   return (
     <>
 
@@ -27,7 +44,12 @@ function BuyingCard(props) {
         
     
      </div>
-       <div className='h-12 w-12 rounded-full bg-[#151d1f] flex justify-center items-center absolute  bottom-4 right-3'> <FaPlus className='text-amber-50 text-2xl' /> </div>
+       <div
+        onClick={handleAddToCart}
+        className='h-12 w-12 cursor-pointer rounded-full bg-[#151d1f] flex justify-center items-center absolute bottom-4 right-3'
+      >
+        <FaPlus className='text-amber-50 text-2xl' />
+      </div>
     </div>
    
     </>
